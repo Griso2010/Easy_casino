@@ -1,5 +1,5 @@
 from casino import Casino
 
-
-casino = Casino()
-casino.start()
+if __name__ == "__main__":
+    casino = Casino()
+    casino.start()
